@@ -1,0 +1,212 @@
+body {
+	  background-image:url('background.jpg');
+
+	/*background-color: #b7d1c4*/
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  
+
+  display: inline;
+}
+
+.jumbotron {
+  postion:absolute;
+  float:left;
+  margin-left:-90px;
+  background-image:url('fractions.png');
+  height: 657px;
+  width: 1250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: absolute;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  font-color:black;
+
+}
+
+.jumbotron p {
+  font-size: 20px;
+  
+  font-color:black;
+
+  color: #fff;
+}
+
+h1 {
+	
+font-family: Verdana;
+	
+font-weight: bold;
+	
+text-align: center;
+	
+padding-top: 25px;
+	
+padding-bottom: 25px;
+	
+color: #000000;
+}
+
+
+ 
+#header {
+
+	position: relative;
+
+	top: -10px;
+
+	background-color: #3c4543;
+
+	border-top-left-radius: 15px;
+
+	border-top-right-radius: 15px;
+}
+
+
+
+#navbar {
+
+	position:relative;
+	left:50%;
+
+	margin-left:-254px;
+
+	margin-top:10px;
+}
+
+
+#the_canvas{
+
+	float:left;
+	position:absolute;
+	margin-right: 120px;
+	margin-left:25px;
+	margin-top:75px;
+	width:200px;
+            
+	clear:both;
+
+}
+#controls{
+	
+	float: right;
+	
+	postion: absolute;
+	
+	margin-top: 75px;
+	
+	clear: both;
+     width:670px;
+	top: 0px;	
+	left: 120px;
+	/*float:left;*/
+
+	
+}
+#footer{
+	
+	
+	position: relative;
+	
+	width:1250;
+
+	margin-left:-90;
+
+	bottom: -20px;
+
+	border-bottom-left-radius: 15px;
+
+	border-bottom-right-radius: 15px;
+
+	height: 75px;
+
+	background-image: url('footer.jpg');
+
+	clear:both;
+}
+
+#button{
+
+	pborder: 2px solid #000000;
+
+	float:left;
+
+	position: relative;
+
+	left: 229px;
+
+	bottom: -20px;
+
+	border-radius: 5px;
+
+	background-color: #cc0323;
+
+	height: 30px;
+
+	width: 150px;
+
+	
+}
+
+#button p{
+
+	position: relative;
+
+	bottom: -5px;
+
+	font-size: 1em;
+
+	color: #ffffff;
+
+	text-align: center;
+}
+ul{
+	
+list-style-type: none;
+	
+position: relative;
+
+	margin: 20px;
+}
+
+li {
+	
+
+	
+	border: 2px solid #000000;
+
+	font-family: Futura, Tahoma, sans-serif;
+
+	font-color:white;
+
+	font-weight: bold;
+	
+	border-radius: 5px 5px;
+	
+	background-color: #cc0323;
+	
+	display:inline;
+	
+	padding:5px;
+	
+	
+}

@@ -1,0 +1,62 @@
+body{
+	background-image:url('math.jpg');
+	background-size: cover;
+}
+.nav{
+     
+	}
+.nav a {
+  color: #add8e3;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+	pborder: 2px solid #000000;
+
+	border-color: #ffa500 #0000ff;
+
+
+	border-radius: 5px;
+
+	background-color:  #ff6600 ;
+
+	height: 30px;
+
+	width: 150px;
+
+  
+  
+}
+
+.nav li {
+  display: inline;
+  
+}
+
+.jumbotron {
+  background-image:url('background.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron a{
+	
+	}

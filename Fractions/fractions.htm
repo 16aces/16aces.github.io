@@ -1,0 +1,61 @@
+<html>
+<head>
+	<script src="processing148.js"></script>
+</head>
+<link type="text/css" rel="stylesheet" href="bootstrap.css"/>
+ <link type="text/css" rel="stylesheet" href="factions.css"/>
+<body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="../Home/Home.htm">Home</a></li>
+          <li><a href="../About me/About me.htm">About Me</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="../Fractions/fractions.htm">Visiual Fractions</a></li>
+          <li><a href="../Contact/Contact.htm">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+<script src="fractions.js" type="text/processing" data-processing-target="canvas1"></script>
+    <div class="container">
+      <div class="jumbotron">
+		<p id="the_canvas"><canvas id="canvas1" width="400" height="200"></canvas></p>
+		<div id="controls">
+			<p id="instructions">Instructions: Choose your mathmatical operation 				then enter fractions</p>
+
+			<select id="math" style="background-color: 008c32;" >
+  			 	<option value="add">Add</option>
+  				 <option value="subtract">Subtract</option>
+   				<option value="multiply">Multiply</option>
+   				<option value="divide">Divide</option>
+			</select> 
+
+			<p id="input1">First fraction              :         
+				<input type="text" id="num" style="background-color: 008c32;" /> / 			    <input type="text" id="den1" style="background-color: 008c32;"/></p>
+			<p id="input2">Second fraction: 
+				<input type="int" id="num2" style="background-color: 008c32;" /> / 				<input type="int" id="den2" style="background-color: 008c32;"/></p>
+			<p><input type="button" id="btnNext" value="Start"
+			 style="background-color: 008c32;" /></p>
+
+			<p><input type="button" id="btnSubmit" value="Reset" 
+			style="background-color: 008c32;" /></p>
+		
+	</div>
+</div>
+
+
+		<div id="footer">
+
+			<div id="button">
+                   <a href="mailto:ZakRohde@gmail.com">
+				<p >Send me an <span class="bold">e-mail</span>!</p>
+                   </a>
+			</div>
+		
+</div>
+</body>
+
+</html>

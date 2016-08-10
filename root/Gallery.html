@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link rel="shortcut icon" href="favicon.ico"/>
+
+<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
+<meta name="Robots" content="index,follow" />
+
+<link rel="stylesheet" href="CSS/Gallery.css" type="text/css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<title>Carr Swim: Gallery</title>
+	
+</head>
+
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+
+	<div id="header"><div id="header-content">	
+		
+		<h1 id="logo"><a href="index.html">Carr Swim Foundation</a></h1>
+
+		<!-- Menu Tabs -->
+		<ul>
+        	<li><a href="Gallery.html" id="current" >Gallery</a></li>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="Maps.html">Maps</a></li>
+            <li><a href="Service.html">Service</a></li>	
+            <li><a href="Support.html">Support</a></li>
+            <li><a href="About.html">About</a></li>	
+		</ul>
+        
+	</div></div>
+	
+	<div class="headerphoto"></div>
+				
+	<!-- content-wrap starts here -->
+	<div id="content-wrap"><div id="content">
+	  <div id="main">		
+		
+	    <div class="post">
+			
+				<a name="TemplateInfo"></a>	
+		  
+          
+          
+          <h1>Gallery</h1>
+		  <div id="wrapper">
+		    <div id = "slide"> <img id="imgBig" class ="tn" width = "775" height = "600" src="Gallery pics/FerrySouthNorth.jpg" alt="7"/></div>
+		    <div id ="tnails" >
+		      <p><img id="01" class ="tn" width = "160" height = "118" src="Gallery pics/FerryBridge.jpg" alt="1" title="Harpers Ferry Bridge" /> 
+              <img id="02" class ="tn" width = "132" height = "118" src="Gallery pics/FromAir.jpg" alt="2" title="Sky image" />
+              <img id="03" class ="tn" width = "167" height = "118" src="Gallery pics/TopoMap.jpg" alt="3" title="Topographical Map of Harpers Ferry" />
+              <img id="04" class ="tn" width = "167" height = "118" src="Gallery pics/ShortHill.jpg" alt="4" title="Short hill image" />
+	          <img id="05" class ="tn" width = "158" height = "118" src="Gallery pics/FerryNational.jpg" alt="5" title="Harpers Ferry National Park" />
+              <img id="06" class ="tn" width = "154" height = "118" src="Gallery pics/RaidRoadPic.jpg" alt="6" title="Alternate Rail Road Picture" />
+              <img id="07" class ="tn" width = "158" height = "118" src="Gallery pics/SunRise.jpg" alt="7" title="Harpers Ferry Sun Rise" />
+              <img id="08" class ="tn" width = "160" height = "118" src="Gallery pics/SatPic.jpg" alt="8" title="Harpers Ferry Satilite Picture" />
+              </p>
+	        </div>
+	    </div>
+	  </div>					
+		
+	<!-- content-wrap ends here -->		
+  </div></div>
+  
+<!-- Java Script starts here -->
+
+<script type="text/javascript">
+   //All jquery code goes inside document ready function. 
+   //Also note that there is no event handler in html which are necessary when you use plain javascript.
+   $(document).ready(function(){
+		$("#01").click(function(){document.getElementById("imgBig").src="Gallery pics/FerryBridge.jpg"});
+		$("#02").click(function(){document.getElementById("imgBig").src="Gallery pics/FromAir.jpg"});
+		$("#03").click(function(){document.getElementById("imgBig").src="Gallery pics/TopoMap.jpg"});
+		$("#04").click(function(){document.getElementById("imgBig").src="Gallery pics/ShortHill.jpg"});
+   		$("#05").click(function(){document.getElementById("imgBig").src="Gallery pics/FerryNational.jpg"});
+		$("#06").click(function(){document.getElementById("imgBig").src="Gallery pics/RaidRoadPic.jpg"});
+		$("#07").click(function(){document.getElementById("imgBig").src="Gallery pics/SunRise.jpg"});
+		$("#08").click(function(){document.getElementById("imgBig").src="Gallery pics/SatPic.jpg"});
+		
+		
+		$("#imgBig").click(function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		
+		$("img#01").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/FerryBridge.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#02").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/FromAir.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#03").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/TopoMap.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#04").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/ShortHill.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#05").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/FerryNational.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#06").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/RaidRoadPic.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#07").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/SunRise.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		$("img#08").mouseover(function(){document.getElementById("imgBig").src="Gallery pics/SatPic.jpg"},function(){document.getElementById("imgBig").src="Gallery pics/FerrySouthNorth.jpg"});
+		
+   });
+   </script>
+<!-- Java Script Ends here -->
+
+<!-- footer starts here -->	
+<div id="footer"><div id="footer-content">
+	
+		<div class="col float-left">
+			
+		</div>
+	
+</div></div>
+<!-- footer ends here -->
+	
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html>

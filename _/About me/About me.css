@@ -1,0 +1,64 @@
+.nav a {
+  color: #aaaaaa;
+  background-color: #5a1a1a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav{
+background-color: #1a1a1a;
+}
+
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('books.jpg');
+  height: 500px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  Background-image:url('ZAK.jpg');
+  position: absolute;
+  text-align: center;
+  top:54px;
+left:450px;
+  height: 500px;
+  width: 350px;
+  border: 5px solid white;
+}
+
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.learn-more {
+  background-color: #aaaaaa;
+
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.learn-more a {
+  color: #00b0ff;
+  
+
+}
+
