@@ -161,7 +161,7 @@ Fractions.prototype.multiply=function(){
 
 ////////////////////// DIVIDE METHOD //////////////////////////
 Fractions.prototype.divide=function(){
-    test=0;
+    
     if ( this.box1.numerator>0 && this.box1.numerator%this.box2.numerator === 0){
 	this.plus1 = true;
 	}
@@ -207,6 +207,7 @@ Fractions.prototype.update=function(){
                 temp.filled=false;
             }
             this.finalnum++;
+
             this.box1.moveBox.push(temp);
             this.box2.numerator--;
         }
@@ -217,7 +218,7 @@ Fractions.prototype.update=function(){
         this.newbox2=this.box2.clone();
     }
 
- if(!this.box1.moveBox[0]&&!this.box2.moveBox[0]&&this.movebox[0]){
+    if(!this.box1.moveBox[0]&&!this.box2.moveBox[0]&&this.movebox[0]){
         this.box2=this.movebox.shift();
         this.subtract();
 	   this.finalnum=0;
@@ -226,10 +227,11 @@ Fractions.prototype.update=function(){
         this.number=this.box1.number;
 	
     }   
-  if(!this.box1.moveBox[0]&&!this.box2.moveBox[0]&&!this.movebox[0]&&this.plus1){
+ if(!this.box1.moveBox[0]&&!this.box2.moveBox[0]&&!this.movebox[0]&&this.plus1){
 			this.number++;
                 this.box1.number++;
 			this.plus1=false;
+            this.box1.numerator
     }    
 
  
@@ -240,11 +242,19 @@ if(this.step===0||this.step===1){
 	
 else if ( this.math === "add" || this.math ==="subtract"|| this.math ==="divide"){
         if (this.step===2&&this.stepped===false){
-           var temp= this.box1.denominator;
-        this.box1.verticalSplit(this.box2.denominator);
-        this.box2.horizotalSplit(temp);
+            if(this.box1.denominator===this.box2.denominator){
+                this.message="Bases of both fractions already equel"
+
+            }
+            else{ 
+                var temp= this.box1.denominator;
+                this.box1.verticalSplit(this.box2.denominator);
+                this.box2.horizotalSplit(temp);
+                this.message="making the bases of both fractions equel"
+            }
+          
         this.stepped=true;
-         this.message="making the bases of both fractions equel"
+         
         }
         if (this.step===3){
             this.newbox1=this.box1.clone();
@@ -261,7 +271,7 @@ else if ( this.math === "add" || this.math ==="subtract"|| this.math ==="divide"
 			}
             else if(this.math==="divide"){
 			this.divide();
-			this.finaldom=this.box1.numerator;
+			this.finaldom=this.box2.numerator;
 			this.finalnum=0;
 
 			}
@@ -364,7 +374,11 @@ Fractions.prototype.go=function(){
     if (this.number){
 	this.final=this.number;}
     if (this.finaldom){
-      this.final=this.number+" "+this.finalnum+"/"+this.finaldom;}
+        if((this.finaldom-this.finalnum)===0){
+            this.final=this.number+" and 0/"+this.finaldom
+        }
+       else{
+      this.final=this.number+" and "+this.finalnum+"/"+this.finaldom;}}
     this.box1.update(); 
     this.box2.update();
     this.update();
