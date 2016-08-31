@@ -1,0 +1,318 @@
+#frame {
+                width:500%;
+                height: 500%;
+                border: none;
+                -moz-transform: scale(0.2);
+                -moz-transform-origin: 0 0;
+                -o-transform: scale(0.2);
+                -o-transform-origin: 0 0;
+                -webkit-transform: scale(0.2);
+                -webkit-transform-origin: 0 0;
+            }
+
+h1 {
+	
+font-family: Verdana;
+	
+font-weight: bold;
+	
+text-align: center;
+	
+padding-top: 25px;
+	
+padding-bottom: 0px;
+	
+color: #ffffff;
+  text-shadow: 3px 3px #666666;
+}
+
+
+h2 {
+	
+font-family: Verdana;
+	
+font-weight: bold;
+	
+text-align: center;
+	
+padding-top: 25px;
+	
+padding-bottom: 0px;
+	
+color: #f0f0f0;
+  
+}
+ 
+p{
+  
+	
+font-family: Verdana;
+	
+font-weight: bold;
+	
+text-align: center;
+	
+font-size: 20px;  
+ 
+ text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000; 
+  
+padding-top: 0px;
+	
+padding-bottom: 0px;
+	
+color: white;
+ ;
+  
+} 
+
+li {
+	
+
+	
+	border: 2px solid #000000;
+
+	font-family: Futura, Tahoma, sans-serif;
+
+	font-color:white;
+
+	font-weight: bold;
+	
+	border-radius: 5px 5px;
+	
+	background-color: #cc0323;
+	
+	display:inline;
+	
+	padding:0px;
+	
+	
+}
+
+.row-pic{
+  width: 90%;
+height: 220px;
+overflow: hidden;
+text-align: center;
+display: block;
+  position: relative;
+white-space: nowrap;
+  padding:1%;
+  
+}
+
+.row-pic img {
+  
+ display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+  
+}
+.box{
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 3px;
+  border: solid 1px red;
+  
+  border: 1px outset rgba(255, 255, 255, 0.6); 
+ 
+}
+.text-box{
+  height:40px;
+  background-color:#666666;
+  font-size:20px;
+  opacity: 0.8; 
+}
+.text-box p{
+   font-weight:bold;
+  font-size:20px;
+  color:#000000;
+  text-shadow:0px 0px #000000;
+}
+.nav a {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  
+
+  display: inline;
+}
+
+
+
+
+
+#navbar {
+
+	position:relative;
+	left:50%;
+
+	margin-left:-254px;
+
+	margin-top:10px;
+}
+
+
+#footer{
+	
+	
+	position: relative;
+	
+	width:1250;
+
+	margin-left:-90;
+
+	bottom: -20px;
+
+	border-bottom-left-radius: 15px;
+
+	border-bottom-right-radius: 15px;
+
+	height: 75px;
+
+	
+}
+
+#button{
+
+	pborder: 4px solid #000000;
+
+	text-align:center;
+
+   margin:auto;
+  margin-top:50px;
+  
+	
+
+	border-radius: 5px;
+
+	background-color: #cc0323;
+
+	height: 60px;
+
+	width: 150px;
+
+	
+}
+
+#button p{
+
+	position: relative;
+
+	bottom: -5px;
+
+	font-size: 20px;
+
+	color: #ffffff;
+
+	text-align: center;
+}
+ul{
+	
+list-style-type: none;
+	
+position: relative;
+
+	margin: 20px;
+}
+
+
+#html {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    background-image:url(http://robt.info/wp-content/uploads/2013/06/funny-kids-comic-animals.jpg);
+}
+
+#header{
+   background: url("http://c2.staticflickr.com/4/3010/2306151268_09f75aa8b5_b.jpg") no-repeat top center fixed;
+   background-size: cover;
+   height: 600px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-shadow: 3px 3px 0px #000;
+   text-align: center;
+   font-size: 50px;
+} 
+#about{
+  text-align: center;
+}
+html.scrolled {
+    background-image:url(http://robt.info/wp-content/uploads/2013/06/funny-kids-comic-animals_2.jpg);
+}
+
+#about{
+   background: url("fraction.png") no-repeat top center fixed;
+   background-size: cover;
+   height: 600px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+  display: inline-block;
+} 
+#about h2{
+  width: 250px;
+  left;
+}
+#about p{
+  width: 300px;
+ left:5px;
+
+}
+#portfolio{
+   background: url("header.png") no-repeat top center fixed;
+   background-size: cover;
+   height: 700px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: Raleway;
+   color: white;
+   text-align: center;
+   
+font-weight:900;
+   font-size: 50px;
+   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
+} 
+
+#portfolio p{
+  
+  color: #f3f6f9;
+font-weight:900;
+   
+   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
+}
+
+#footer{
+   background: url("http://www.torange.us/photo/37/13/Christmas-background-1417592406_82.jpg") no-repeat top center fixed;
+   background-size: cover;
+   height: 600px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+} 
