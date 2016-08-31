@@ -259,7 +259,7 @@ html.scrolled {
 }
 
 #about{
-   background: url("fraction.png") no-repeat top center fixed;
+   background: url("fraction.PNG") no-repeat top center fixed;
    background-size: cover;
    height: 600px;
    width: 100%;
@@ -280,7 +280,7 @@ html.scrolled {
 
 }
 #portfolio{
-   background: url("header.png") no-repeat top center fixed;
+   background: url("header.PNG") no-repeat top center fixed;
    background-size: cover;
    height: 700px;
    width: 100%;
